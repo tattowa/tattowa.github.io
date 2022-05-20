@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewpoint" content="width=device-width,initial scale=1">
+      <title>数字タッチゲーム</title>
+      <link rel="stylesheet" href="css/style.css">
+   </head>
+   <body>
+      <section id="modal" class="hidden">
+         <p id="score">
+            <!-- finished in (x)second ! -->
+         </p>
+         <div class=btn>
+
+            <div id="conti">
+               continue?
+            </div>
+            <div id="quite">やめる</div>
+         </div>
+      </section>
+
+
+
+<div id="mask" class="hidden"></div>
+
+      <p id="title">数字タッチゲーム</p>
+      <div id="container">
+
+         <div id="timer">0.0</div>
+         <ul id="board">
+         </ul>
+         <div id="btn">START</div>
+         <ul id="lev">
+            <li id="lev3"> Easy </li>
+            <li id="lev4">Normal</li>
+            <li id="lev5"> Hard </li>
+         </ul>
+      </div>
+         <script src="js/main.js"></script>
+   </body>
+</html>
